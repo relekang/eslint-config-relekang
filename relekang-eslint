@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+/* eslint-disable no-console */
+const spawn = require('child_process').spawn;
+const packageInfo = require('./package.json');
+
+console.log('Installing peer dependencies');
+
+const dependencies = [];
+
+Object.keys(packageInfo.devDependencies)
+  .forEach(dependency => {
+    dependencies.push(`${dependency}@${packageInfo.devDependencies[dependency]}`);
+  });
+
+const install = spawn('npm', [
+  'install',
+  '--save-dev',
+].concat(dependencies));
+
+install.stdout.on('data', (data) => console.log(data.toString()));
+install.stderr.on('data', (data) => console.error(data.toString()));
+
+install.on('close', (code) => {
+  if (code === 0) {
+    console.log('Install was successful');
+  } else {
+    console.log(`Install failed with exit code ${code}`);
+  }
+});

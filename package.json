@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-relekang",
+  "version": "0.0.0",
+  "description": "My preferred eslint config for different types of projects, mostly composition of airbnb and extra plugin recommendations",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relekang/eslint-config-relekang.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "lint"
+  ],
+  "bin": {
+    "relekang-eslint": "./relekang-eslint"
+  },
+  "author": "Rolf Erik Lekang <me@rolflekang.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relekang/eslint-config-relekang/issues"
+  },
+  "homepage": "https://github.com/relekang/eslint-config-relekang#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-plugin-flow-typed": "^1.0.1",
+    "eslint-plugin-flowtype": "^2.11.4",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-lodash": "^1.10.1",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}
