@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-relekang",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "My preferred eslint config for different types of projects, mostly composition of airbnb and extra plugin recommendations",
   "scripts": {
     "test": "eslint ."
