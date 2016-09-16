@@ -24,17 +24,17 @@
   },
   "homepage": "https://github.com/relekang/eslint-config-relekang#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^10.0.1",
-    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-config-airbnb-base": "^7.1.0",
     "lodash": "^4.15.0"
   },
   "devDependencies": {
-    "eslint": "^3.4.0",
+    "eslint": "^3.5.0",
     "eslint-plugin-flow-typed": "^1.0.1",
-    "eslint-plugin-flowtype": "^2.11.4",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.2.1",
-    "eslint-plugin-lodash": "^1.10.1",
-    "eslint-plugin-react": "^6.2.0"
+    "eslint-plugin-flowtype": "^2.18.1",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-lodash": "^1.10.3",
+    "eslint-plugin-react": "^6.2.2"
   }
 }
