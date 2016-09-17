@@ -9,5 +9,7 @@ module.exports = {
   'rules': {
     'max-len': [2, 100, 2, { 'ignorePattern': '(^import)|(^} from)' }],
     'no-multiple-empty-lines': [2, { 'max': 1, 'maxBOF': 0, 'maxEOF': 0 }],
+    'no-duplicate-imports': [0],
+    'import/no-duplicates': [2],
   },
 };
