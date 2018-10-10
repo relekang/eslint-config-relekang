@@ -1,9 +1,12 @@
 {
   "name": "eslint-config-relekang",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "main": "configs",
   "author": "Rolf Erik Lekang <me@rolflekang.com>",
   "license": "MIT",
+  "scripts": {
+    "release": "standard-version -i changelog.md"
+  },
   "bin": {
     "eslint-config-relekang": "./bin.js"
   },
@@ -21,6 +24,7 @@
     "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-prettier": "^3.0.0",
     "prettier": "^1.14.3",
+    "standard-version": "^4.4.0",
     "typescript-eslint-parser": "^20.0.0"
   }
 }

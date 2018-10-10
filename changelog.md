@@ -1,0 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.0.0-rc.1"></a>
+# 1.0.0-rc.1 (2018-10-10)
+
+
+### Bug Fixes
+
+* Rename package from scoped to unscoped ([9e5e674](https://github.com/relekang/eslint-config-relekang/commit/9e5e674))
+
+
+### Features
+
+* Initial implementation ([c7369ea](https://github.com/relekang/eslint-config-relekang/commit/c7369ea))
