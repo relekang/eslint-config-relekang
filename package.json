@@ -1,0 +1,23 @@
+{
+  "name": "@relekang/eslint-config",
+  "version": "1.0.0-rc.0",
+  "main": "configs",
+  "author": "Rolf Erik Lekang <me@rolflekang.com>",
+  "license": "MIT",
+  "bin": {
+    "relekang-eslint-config": "./bin.js"
+  },
+  "files": ["configs", "bin.js"],
+  "dependencies": {
+    "setup-eslint-config": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3",
+    "typescript-eslint-parser": "^20.0.0"
+  }
+}
