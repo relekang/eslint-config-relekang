@@ -4,11 +4,11 @@ const { setup } = require('setup-eslint-config');
 const packageInfo = require('./package.json');
 
 setup({
-  name: '@relekang/eslint-config',
+  name: 'eslint-config-relekang',
   packageInfo,
   prompts: [{ name: 'jest', type: 'confirm', message: 'Use jest?' }],
   createEslintConfig: config => {
-    const eslintConfig = { extends: ['@relekang'] };
+    const eslintConfig = { extends: ['relekang'] };
     if (config.babel) {
       eslintConfig.parser = 'babel-eslint';
     }
@@ -16,10 +16,10 @@ setup({
       eslintConfig.parser = 'typescript-eslint-parser';
     }
     if (config.jest) {
-      eslintConfig.extends.push('@relekang/eslint-config/jest');
+      eslintConfig.extends.push('relekang/jest');
     }
     if (config.flowtype) {
-      eslintConfig.extends.push('@relekang/eslint-config/flowtype');
+      eslintConfig.extends.push('relekang/flowtype');
     }
     return eslintConfig;
   },

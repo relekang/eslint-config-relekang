@@ -1,13 +1,16 @@
 {
-  "name": "@relekang/eslint-config",
+  "name": "eslint-config-relekang",
   "version": "1.0.0-rc.0",
   "main": "configs",
   "author": "Rolf Erik Lekang <me@rolflekang.com>",
   "license": "MIT",
   "bin": {
-    "relekang-eslint-config": "./bin.js"
+    "eslint-config-relekang": "./bin.js"
   },
-  "files": ["configs", "bin.js"],
+  "files": [
+    "configs",
+    "bin.js"
+  ],
   "dependencies": {
     "setup-eslint-config": "^1.0.0-rc.3"
   },
