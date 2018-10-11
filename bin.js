@@ -16,10 +16,10 @@ setup({
       eslintConfig.parser = 'typescript-eslint-parser';
     }
     if (config.jest) {
-      eslintConfig.extends.push('relekang/jest');
+      eslintConfig.extends.push('relekang/configs/jest');
     }
     if (config.flowtype) {
-      eslintConfig.extends.push('relekang/flowtype');
+      eslintConfig.extends.push('relekang/configs/flowtype');
     }
     return eslintConfig;
   },
