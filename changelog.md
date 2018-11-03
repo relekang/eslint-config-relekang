@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.3"></a>
+# [1.0.0-rc.3](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2018-11-03)
+
+
+### Bug Fixes
+
+* Set modules = true in parser options ([9ed81a3](https://github.com/relekang/eslint-config-relekang/commit/9ed81a3))
+
+
+
 <a name="1.0.0-rc.2"></a>
 # [1.0.0-rc.2](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2018-10-11)
 
