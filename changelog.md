@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.4"></a>
+# [1.0.0-rc.4](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2018-11-03)
+
+
+### Bug Fixes
+
+* Use sourcetype modules ([8d1fa77](https://github.com/relekang/eslint-config-relekang/commit/8d1fa77))
+
+
+
 <a name="1.0.0-rc.3"></a>
 # [1.0.0-rc.3](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2018-11-03)
 
