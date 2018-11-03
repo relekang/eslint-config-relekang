@@ -14,6 +14,7 @@ setup({
     }
     if (config.typescript) {
       eslintConfig.parser = 'typescript-eslint-parser';
+      eslintConfig.extends.push('relekang/configs/typescript');
     }
     if (config.jest) {
       eslintConfig.extends.push('relekang/configs/jest');
@@ -35,6 +36,7 @@ setup({
     }
     if (config.typescript) {
       list.push('typescript-eslint-parser');
+      list.push('eslint-plugin-typescript');
     }
     return list;
   },
