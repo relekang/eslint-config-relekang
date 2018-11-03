@@ -4,6 +4,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     modules: true,
+    sourceType: 'module',
   },
   globals: {
     Promise: false,
