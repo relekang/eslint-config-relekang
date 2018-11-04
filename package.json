@@ -15,7 +15,7 @@
     "bin.js"
   ],
   "dependencies": {
-    "setup-eslint-config": "^1.0.0-rc.3"
+    "setup-eslint-config": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
