@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.6"></a>
+# [1.0.0-rc.6](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.5...v1.0.0-rc.6) (2018-11-04)
+
+
+### Bug Fixes
+
+* Upgrade eslint to 5.8.0 ([202ee90](https://github.com/relekang/eslint-config-relekang/commit/202ee90))
+* Upgrade eslint-parser-typescript to 20.1.1 ([1401a1b](https://github.com/relekang/eslint-config-relekang/commit/1401a1b))
+* Upgrade setup-eslint-config to 1.0.0 ([df2cca7](https://github.com/relekang/eslint-config-relekang/commit/df2cca7))
+
+
+
 <a name="1.0.0-rc.5"></a>
 # [1.0.0-rc.5](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2018-11-03)
 
