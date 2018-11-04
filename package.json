@@ -26,6 +26,6 @@
     "eslint-plugin-typescript": "^0.13.0",
     "prettier": "^1.14.3",
     "standard-version": "^4.4.0",
-    "typescript-eslint-parser": "^20.0.0"
+    "typescript-eslint-parser": "^20.1.1"
   }
 }
