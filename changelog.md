@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.7"></a>
+# [1.0.0-rc.7](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.6...v1.0.0-rc.7) (2018-11-04)
+
+
+### Features
+
+* Add support for react ([fd9477c](https://github.com/relekang/eslint-config-relekang/commit/fd9477c))
+
+
+
 <a name="1.0.0-rc.6"></a>
 # [1.0.0-rc.6](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.5...v1.0.0-rc.6) (2018-11-04)
 
