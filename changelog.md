@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.8"></a>
+# [1.0.0-rc.8](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.7...v1.0.0-rc.8) (2018-11-11)
+
+
+### Bug Fixes
+
+* Add config for no use before define for ts ([1aac82c](https://github.com/relekang/eslint-config-relekang/commit/1aac82c))
+* Add ts files to jest pattern ([6b5a771](https://github.com/relekang/eslint-config-relekang/commit/6b5a771))
+
+
+### Features
+
+* Add react-hooks rules ([14fee7b](https://github.com/relekang/eslint-config-relekang/commit/14fee7b))
+
+
+
 <a name="1.0.0-rc.7"></a>
 # [1.0.0-rc.7](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.6...v1.0.0-rc.7) (2018-11-04)
 
