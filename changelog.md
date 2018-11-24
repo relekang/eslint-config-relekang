@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0-rc.9"></a>
+# [1.0.0-rc.9](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.8...v1.0.0-rc.9) (2018-11-24)
+
+
+### Bug Fixes
+
+* **typescript:** Config no-undef, no-unused-vars and no-use-before-define correctly ([888f5c7](https://github.com/relekang/eslint-config-relekang/commit/888f5c7))
+
+
+
 <a name="1.0.0-rc.8"></a>
 # [1.0.0-rc.8](https://github.com/relekang/eslint-config-relekang/compare/v1.0.0-rc.7...v1.0.0-rc.8) (2018-11-11)
 
