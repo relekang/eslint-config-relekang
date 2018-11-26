@@ -46,6 +46,7 @@ setup({
     }
     if (config.react) {
       list.push('eslint-plugin-react');
+      list.push('eslint-plugin-react-hooks');
     }
     return list;
   },
