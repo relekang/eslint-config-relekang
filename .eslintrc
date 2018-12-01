@@ -1,7 +1,5 @@
 ---
 extends:
  - ./configs/index.js
- - ./configs/index.js
- - ./configs/flowtype.js
 env:
  node: true

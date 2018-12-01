@@ -35,6 +35,7 @@ setup({
       'eslint',
       'eslint-plugin-prettier',
       'eslint-config-prettier',
+      'eslint-plugin-eslint-comments',
       'prettier',
     ];
     if (config.babel) {
