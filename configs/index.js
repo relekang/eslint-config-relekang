@@ -26,5 +26,6 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+    'eslint-comments/disable-enable-pair': 0,
   },
 };
