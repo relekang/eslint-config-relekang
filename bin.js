@@ -16,7 +16,7 @@ setup({
       eslintConfig.parser = 'babel-eslint';
     }
     if (config.typescript) {
-      eslintConfig.parser = 'typescript-eslint-parser';
+      eslintConfig.parser = '@typescript-eslint/parser';
       eslintConfig.extends.push('relekang/configs/typescript');
     }
     if (config.jest) {
@@ -42,8 +42,8 @@ setup({
       list.push('babel-eslint');
     }
     if (config.typescript) {
-      list.push('typescript-eslint-parser');
-      list.push('eslint-plugin-typescript');
+      list.push('@typescript-eslint/parser');
+      list.push('@typescript-eslint/eslint-plugin');
     }
     if (config.react) {
       list.push('eslint-plugin-react');
