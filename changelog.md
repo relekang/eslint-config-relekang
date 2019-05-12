@@ -1,6 +1,20 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.2.0](https://github.com/relekang/eslint-config-relekang/compare/v1.1.1...v1.2.0) (2019-05-12)
+
+
+### Bug Fixes
+
+* Use new typescript setup ([77d1264](https://github.com/relekang/eslint-config-relekang/commit/77d1264))
+
+
+### Features
+
+* Upgrade eslint plugins ([8b35b86](https://github.com/relekang/eslint-config-relekang/commit/8b35b86))
+
+
 
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/relekang/eslint-config-relekang/compare/v1.1.0...v1.1.1) (2018-12-29)
