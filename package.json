@@ -15,20 +15,20 @@
     "bin.js"
   ],
   "dependencies": {
-    "setup-eslint-config": "^1.0.2"
+    "setup-eslint-config": "^1.2.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.8.0",
-    "@typescript-eslint/parser": "^1.8.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-plugin-eslint-comments": "^3.1.1",
-    "eslint-plugin-flowtype": "^3.8.2",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0",
-    "prettier": "^1.17.0",
-    "standard-version": "^6.0.1"
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0"
   }
 }
