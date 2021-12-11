@@ -13,7 +13,7 @@ setup({
   createEslintConfig: config => {
     const eslintConfig = { extends: ['relekang'] };
     if (config.babel) {
-      eslintConfig.parser = 'babel-eslint';
+      eslintConfig.parser = '@babel/eslint-parser';
     }
     if (config.typescript) {
       eslintConfig.parser = '@typescript-eslint/parser';
@@ -39,7 +39,7 @@ setup({
       'prettier',
     ];
     if (config.babel) {
-      list.push('babel-eslint');
+      list.push('@babel/eslint-parser');
     }
     if (config.typescript) {
       list.push('@typescript-eslint/parser');
