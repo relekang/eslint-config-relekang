@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/relekang/eslint-config-relekang/compare/v2.0.0...v2.0.1) (2021-12-11)
+
+
+### Bug Fixes
+
+* put ts rules in overrides for ts files only ([63dbc13](https://github.com/relekang/eslint-config-relekang/commit/63dbc13a6d4bea4798c5a3fdaae80d277700037c))
+* update typescript config ([3664fa4](https://github.com/relekang/eslint-config-relekang/commit/3664fa44438098d15d71eb50ad5ad0d3fa562c53))
+
 ## [2.0.0](https://github.com/relekang/eslint-config-relekang/compare/v1.3.1...v2.0.0) (2021-12-11)
 
 
