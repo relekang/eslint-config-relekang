@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/relekang/eslint-config-relekang/compare/v1.3.1...v2.0.0) (2021-12-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* this probably add a lot of rules so doing a major
+release for it.
+
+### Features
+
+* Upgrade all eslint packages ([7a4992a](https://github.com/relekang/eslint-config-relekang/commit/7a4992a82daf7f23a458b16def55c56800d74845))
+
+
+### Bug Fixes
+
+* ugprade setup-eslint-config ([9758c59](https://github.com/relekang/eslint-config-relekang/commit/9758c59ece65590def761e037a977f9a27bd89e6))
+
 ### [1.3.1](https://github.com/relekang/eslint-config-relekang/compare/v1.3.0...v1.3.1) (2019-08-28)
 
 
