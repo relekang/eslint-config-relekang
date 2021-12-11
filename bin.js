@@ -10,7 +10,7 @@ setup({
     { name: 'react', type: 'confirm', message: 'Use react?' },
     { name: 'jest', type: 'confirm', message: 'Use jest?' },
   ],
-  createEslintConfig: config => {
+  createEslintConfig: (config) => {
     const eslintConfig = { extends: ['relekang'] };
     if (config.babel) {
       eslintConfig.parser = '@babel/eslint-parser';
@@ -30,7 +30,7 @@ setup({
     }
     return eslintConfig;
   },
-  createDependencyList: config => {
+  createDependencyList: (config) => {
     const list = [
       'eslint',
       'eslint-plugin-prettier',
