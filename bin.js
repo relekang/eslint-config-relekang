@@ -10,6 +10,7 @@ setup({
     { name: 'react', type: 'confirm', message: 'Use react?' },
     { name: 'jest', type: 'confirm', message: 'Use jest?' },
   ],
+  skipDetectedPrompts: true,
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['relekang'] };
     if (config.babel) {
