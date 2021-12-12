@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/relekang/eslint-config-relekang/compare/v2.1.0...v2.1.1) (2021-12-12)
+
+
+### Bug Fixes
+
+* add skipDetectedPrompts ([3add78a](https://github.com/relekang/eslint-config-relekang/commit/3add78a491fa379ae020ac8996f3d48bd679ad5f))
+* upgrade setup-eslint-config ([9552d03](https://github.com/relekang/eslint-config-relekang/commit/9552d034eb64c94f43f028093e2e77578d8bb296))
+
 ## [2.1.0](https://github.com/relekang/eslint-config-relekang/compare/v2.0.1...v2.1.0) (2021-12-11)
 
 
