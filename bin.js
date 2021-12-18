@@ -7,6 +7,8 @@ setup({
   name: 'eslint-config-relekang',
   packageInfo,
   prompts: [
+    { name: 'babel', type: 'confirm', message: 'Use babel?' },
+    { name: 'typescript', type: 'confirm', message: 'Use typescript?' },
     { name: 'react', type: 'confirm', message: 'Use react?' },
     { name: 'jest', type: 'confirm', message: 'Use jest?' },
   ],
