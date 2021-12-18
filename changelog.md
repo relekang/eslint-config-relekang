@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/relekang/eslint-config-relekang/compare/v2.1.2...v2.1.3) (2021-12-18)
+
+
+### Bug Fixes
+
+* upgrade setup-eslint-config to have saved options ([d758df8](https://github.com/relekang/eslint-config-relekang/commit/d758df83482a5ffd67f1439b2251c70fe0441941))
+
 ### [2.1.2](https://github.com/relekang/eslint-config-relekang/compare/v2.1.1...v2.1.2) (2021-12-18)
 
 
