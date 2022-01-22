@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.4](https://github.com/relekang/eslint-config-relekang/compare/v2.1.3...v2.1.4) (2022-01-22)
+
+
+### Bug Fixes
+
+* Upgrade eslint ([72e3069](https://github.com/relekang/eslint-config-relekang/commit/72e3069e4d331841beca1d25e7f302d46a244e77))
+* Upgrade eslint typescript packages ([bd48602](https://github.com/relekang/eslint-config-relekang/commit/bd48602add43dee7e0d9bcf37505e84f246c8e8a))
+* Upgrade react plugin ([0c27cec](https://github.com/relekang/eslint-config-relekang/commit/0c27ceca8bed0306dc7df569449a386b115646b9))
+
 ### [2.1.3](https://github.com/relekang/eslint-config-relekang/compare/v2.1.2...v2.1.3) (2021-12-18)
 
 
