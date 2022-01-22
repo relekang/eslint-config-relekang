@@ -32,6 +32,6 @@
     "standard-version": "^9.3.2"
   },
   "dependencies": {
-    "setup-eslint-config": "^1.8.2"
+    "setup-eslint-config": "^1.9.0"
   }
 }
