@@ -5,9 +5,10 @@
   "author": "Rolf Erik Lekang <me@rolflekang.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint .",
-    "format": "eslint --fix .",
-    "release": "standard-version -i changelog.md"
+    "lint": "eslint --cache  .",
+    "format": "eslint --cache --quiet --fix  .",
+    "release": "standard-version -i changelog.md",
+    "lint:errors": "eslint --cache --quiet  ."
   },
   "bin": {
     "eslint-config-relekang": "./bin.js"
@@ -31,6 +32,6 @@
     "standard-version": "^9.3.2"
   },
   "dependencies": {
-    "setup-eslint-config": "^1.7.1"
+    "setup-eslint-config": "^1.8.1"
   }
 }

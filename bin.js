@@ -54,4 +54,15 @@ setup({
     }
     return list;
   },
+  createNpmCommands: ({ typescript }) => {
+    return {
+      lint: `eslint --cache ${typescript ? '--ext ts,tsx,js,jsx' : ''} .`,
+      'lint:errors': `eslint --cache --quiet ${
+        typescript ? '--ext ts,tsx,js,jsx' : ''
+      } .`,
+      format: `eslint --cache --quiet --fix ${
+        typescript ? '--ext ts,tsx,js,jsx' : ''
+      } .`,
+    };
+  },
 });
