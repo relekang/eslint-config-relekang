@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint --cache  .",
     "format": "eslint --cache --quiet --fix  .",
-    "release": "standard-version -i changelog.md",
+    "release": "standard-version -i changelog.md && git push --follow-tags origin main && npm publish",
     "lint:errors": "eslint --cache --quiet  ."
   },
   "bin": {
