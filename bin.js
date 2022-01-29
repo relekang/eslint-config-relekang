@@ -13,6 +13,7 @@ setup({
     { name: 'jest', type: 'confirm', message: 'Use jest?' },
   ],
   skipDetectedPrompts: true,
+  useEslintRelativePathPatch: true,
   createEslintConfig: (config) => {
     const eslintConfig = { extends: ['relekang'] };
     if (config.babel) {
@@ -32,27 +33,6 @@ setup({
       eslintConfig.extends.push('relekang/configs/react');
     }
     return eslintConfig;
-  },
-  createDependencyList: (config) => {
-    const list = [
-      'eslint',
-      'eslint-plugin-prettier',
-      'eslint-config-prettier',
-      'eslint-plugin-eslint-comments',
-      'prettier',
-    ];
-    if (config.babel) {
-      list.push('@babel/eslint-parser');
-    }
-    if (config.typescript) {
-      list.push('@typescript-eslint/parser');
-      list.push('@typescript-eslint/eslint-plugin');
-    }
-    if (config.react) {
-      list.push('eslint-plugin-react');
-      list.push('eslint-plugin-react-hooks');
-    }
-    return list;
   },
   createNpmCommands: ({ typescript }) => {
     return {

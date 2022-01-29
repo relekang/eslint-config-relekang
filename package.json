@@ -18,6 +18,9 @@
     "bin.js"
   ],
   "devDependencies": {
+    "standard-version": "^9.3.2"
+  },
+  "dependencies": {
     "@babel/eslint-parser": "^7.16.5",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
@@ -29,9 +32,6 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.1",
-    "standard-version": "^9.3.2"
-  },
-  "dependencies": {
-    "setup-eslint-config": "^1.10.0"
+    "setup-eslint-config": "^1.11.1"
   }
 }
