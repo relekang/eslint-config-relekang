@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-relekang",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "main": "./configs",
   "author": "Rolf Erik Lekang <me@rolflekang.com>",
   "license": "MIT",

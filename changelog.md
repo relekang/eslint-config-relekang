@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.9](https://github.com/relekang/eslint-config-relekang/compare/v2.1.8...v2.1.9) (2022-01-29)
+
+
+### Bug Fixes
+
+* Use @rushstack/eslint-patch and move plugins to deps ([d0b8178](https://github.com/relekang/eslint-config-relekang/commit/d0b8178c54e40f3c967e8d97047ddcc7c46a1f4d))
+
 ### [2.1.8](https://github.com/relekang/eslint-config-relekang/compare/v2.1.7...v2.1.8) (2022-01-22)
 
 
