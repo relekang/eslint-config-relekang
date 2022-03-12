@@ -9,6 +9,7 @@ module.exports = {
         'no-undef': 'off',
         'no-unused-vars': 'off',
         'no-use-before-define': 'off',
+        'no-redeclare': 'off',
 
         '@typescript-eslint/no-unused-vars': [
           'error',
