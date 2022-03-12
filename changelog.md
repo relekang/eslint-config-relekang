@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.12](https://github.com/relekang/eslint-config-relekang/compare/v2.1.11...v2.1.12) (2022-03-12)
+
+
+### Bug Fixes
+
+* Add parser to ts overrides ([a298136](https://github.com/relekang/eslint-config-relekang/commit/a2981360a9531458ce590eb8c6144fbd64848d90))
+
 ### [2.1.11](https://github.com/relekang/eslint-config-relekang/compare/v2.1.10...v2.1.11) (2022-02-16)
 
 
