@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.13](https://github.com/relekang/eslint-config-relekang/compare/v2.1.12...v2.1.13) (2022-03-12)
+
+
+### Bug Fixes
+
+* Disable no-redeclare in typescript config ([c6b5f4e](https://github.com/relekang/eslint-config-relekang/commit/c6b5f4ee5b9ac5f588906687de2193460c6253cc))
+
 ### [2.1.12](https://github.com/relekang/eslint-config-relekang/compare/v2.1.11...v2.1.12) (2022-03-12)
 
 
