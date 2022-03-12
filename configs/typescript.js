@@ -3,6 +3,7 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
+      parser: '@typescript-eslint/parser',
       rules: {
         // typescript will handle this so no need for it
         'no-undef': 'off',
