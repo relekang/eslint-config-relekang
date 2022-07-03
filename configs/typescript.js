@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'deprecation'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
@@ -30,6 +30,7 @@ module.exports = {
             minimumDescriptionLength: 3,
           },
         ],
+        'deprecation/deprecation': 'warn',
       },
     },
   ],
