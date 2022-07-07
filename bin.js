@@ -20,7 +20,6 @@ setup({
       eslintConfig.parser = '@babel/eslint-parser';
     }
     if (config.typescript) {
-      eslintConfig.parser = '@typescript-eslint/parser';
       eslintConfig.extends.push('relekang/configs/typescript');
     }
     if (config.jest) {
