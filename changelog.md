@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://github.com/relekang/eslint-config-relekang/compare/v2.2.0...v2.2.1) (2022-07-07)
+
+
+### Bug Fixes
+
+* Remove typescript parser outside overrides ([9a77a6e](https://github.com/relekang/eslint-config-relekang/commit/9a77a6e117bed13d8137c9a6152fcc45b82d9764))
+* Upgrade typescript plugin ([395ac51](https://github.com/relekang/eslint-config-relekang/commit/395ac519be884e9b45242e3ec536a32cf2e94cea))
+
 ## [2.2.0](https://github.com/relekang/eslint-config-relekang/compare/v2.1.13...v2.2.0) (2022-07-03)
 
 
